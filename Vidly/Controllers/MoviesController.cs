@@ -17,6 +17,7 @@ namespace Vidly.Controllers
                 Name = "Shrek"
 
             };
+            
             return View(movie);
         }
 
@@ -42,7 +43,7 @@ namespace Vidly.Controllers
 
         public ActionResult ByReleasedDate(int year, int month)
         {
-            return Content(year+"/"+month);
+            return Content(year + "/" + month);
         }
     }
 
