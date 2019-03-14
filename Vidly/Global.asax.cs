@@ -17,5 +17,6 @@ namespace Vidly
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
-    }
+    }   
 }
+                            
